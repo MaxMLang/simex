@@ -130,7 +130,7 @@ mixedsimex <- function(model,
     lambda <- lambda[lambda >= 0]
   }
   
-  # Check model requirements
+  # Check model requirements for mixed SIMEX
   if (class(model)[1] == "polr" && !any(names(model) == "Hessian"))
     stop("The option Hessian must be enabled in the naive model", call. = FALSE)
   
