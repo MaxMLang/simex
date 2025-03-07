@@ -17,6 +17,8 @@ Authors@R: c(
     person("Helmut", "K\u00fcchenhoff", email = "Kuechenhoff@stat.uni-muenchen.de", role = "ctb"),
     person("Chris", "Lawrence", email = "", role = "ctb"),
     person("Rasmus Froberg", "Brøndum", email = "", role = "ctb"))
+    person("Max Melchior", "Lang", email = "", role = "ctb"))
+
 Description: Implementation of the SIMEX-Algorithm by Cook & Stefanski (1994) <doi:10.1080/01621459.1994.10476871> and
     MCSIMEX by Küchenhoff, Mwalili & Lesaffre (2006) <doi:10.1111/j.1541-0420.2005.00396.x>.
 URL: http://wolfganglederer.github.io/simex/
@@ -26,4 +28,4 @@ Encoding: UTF-8
 LazyLoad: yes
 ZipData: yes
 Packaged: Wen Jul 31 01:30:00 2019; wolfgang
-RoxygenNote: 6.1.1
+RoxygenNote: 7.3.2
